@@ -12,10 +12,48 @@ if (a) {
     document.write("why");
 } */
 //string manipulation
-let string1="Suhaib";
-let a=string1.length;
-document.write("the length of this string is "+a);
-    </script>
+let string1="Suhaib usman";
+let string2="SUHAIB";
+let string3="                    Suhaib Usman       ";
+let string4;
+document.write("the length of this string is:- "+string1.length);
+document.write("<br>");
+document.write("the String is converted in UPPERCASE:- "+string1.toUpperCase());
+document.write("<br>");
+document.write("the String is converted in lowerCase:- "+string2.toLowerCase());
+document.write("<br>");
+document.write("this func check if h is include on this string or not:- "+string1.includes("h"));
+document.write("<br>");
+document.write("this func check the word is starts from u :- "+string1.startsWith("u"));
+document.write("<br>");
+document.write("this func check the word is ends with b :- "+string1.endsWith("b"));
+document.write("<br>");
+document.write("this func search word or string and give index :- "+string1.search("h"));
+document.write("<br>");
+document.write("this func check the word is ends with  :- "+string1.match("Suhaib"));
+document.write("<br>");
+document.write("this func shows index of h in string:-"+string1.indexOf("h"));
+document.write("<br>");
+document.write("this is same as index of but check in Right to left:-"+string1.lastIndexOf("u"));
+document.write("<br>");
+document.write("this func search and replace word:-"+string1.replace("Suhaib","Sobi"));
+document.write("<br>");
+document.write("testing of String3" +string3);
+document.write("<br>");
+document.write("this func remove extra space in left and right:-"+string3.trim());
+document.write("<br>");
+console.log(string3);
+document.write("in this func we give index and it gives vale:-"+string1.charAt(0));
+document.write("<br>");
+document.write("ASCii code to character:-"+String.fromCharCode(110));
+document.write("<br>");
+document.write("Concate"+string1.concat(string2,string3));
+document.write("<br>");
+document.write("remove any character and replace qouma "+string1.split("a"));
+document.write("<br>");
+document.write("repeat 2 times and print string "+string1.repeat(2));
+document.write("<br>");
+  </script>
 </head>
 <body>
     
